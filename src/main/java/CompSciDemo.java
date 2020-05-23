@@ -14,7 +14,7 @@ public class CompSciDemo {
     public CompSciDemo() {
         //Create a CompSciStudent object
         csStudent = new CompSciStudent("Jennifer" +
-                "Haynes", "167W98337", 2015);
+                " Haynes", "167W98337", 2015);
 
         // Set values for student hours
         csStudent.setMathHours(12);
