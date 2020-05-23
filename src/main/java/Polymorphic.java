@@ -21,4 +21,12 @@ public abstract class Polymorphic {
                     ", grade " + exams[i].getGrade());
         }
     }
+    /*
+    * This method can take GradedActivity and all classes
+    * that extend it (i.e. FinalExam, PassFailExam etc)
+    * Thus it's considered polymorphic*/
+    public void displayGrades(GradedActivity g){
+        System.out.println("Score: " + g.getScore() +
+                            ", grade " + g.getGrade());
+    }
 }
