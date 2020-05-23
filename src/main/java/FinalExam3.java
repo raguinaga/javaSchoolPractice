@@ -83,11 +83,8 @@ public class FinalExam3 extends GradedActivity implements Relatable{
     public boolean isGreater(GradedActivity g) {
         boolean status;
 
-        if (this.getScore() > g.getScore()) {
-            status = true;
-        } else {
-            status = false;
-        }
+        /*IntelliJ-generated simplified boolean assignment*/
+        status = this.getScore() > g.getScore();
 
         return status;
     }
