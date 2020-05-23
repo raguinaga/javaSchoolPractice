@@ -4,5 +4,7 @@
 * implemented by other classes. The classes that implement the interface
 *  must override methods of the interface*/
 public interface Displayable {
-    void display();
+    default void display() {
+        System.out.println("This is the default display method.");
+    }
 }
